@@ -39,3 +39,6 @@ WITH_GMS := true
 # Official
 RICE_OFFICIAL := true
 RICE_MAINTAINER := KSSRAO
+
+# Graphene Camera
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
