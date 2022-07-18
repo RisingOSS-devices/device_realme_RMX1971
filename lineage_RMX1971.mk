@@ -10,7 +10,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+# Boot Animation
+SUSHI_BOOTANIMATION := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
