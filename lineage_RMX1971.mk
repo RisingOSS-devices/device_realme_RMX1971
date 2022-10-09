@@ -37,6 +37,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 WITH_GMS := true
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
+# Package Type (By default it says AOSP,lets make it Vanilla instead)
+RICE_PACKAGE_TYPE := Vanilla
+
 # Official
 RICE_OFFICIAL := true
 RICE_MAINTAINER := KSSRAO
