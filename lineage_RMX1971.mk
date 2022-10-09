@@ -35,6 +35,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Pixel
 WITH_GMS := true
+TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
 # Official
 RICE_OFFICIAL := true
