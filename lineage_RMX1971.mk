@@ -29,6 +29,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
     TARGET_DEVICE="RMX1971"
 
+# Spoof build description/fingerprint as pixel device
+TARGET_USE_PIXEL_FINGERPRINT := true
+
 # Pixel
 WITH_GMS := true
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
