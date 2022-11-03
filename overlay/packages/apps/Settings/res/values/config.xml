@@ -28,4 +28,7 @@
     <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
     <bool name="config_supportBatteryHealth">true</bool>
 
+<!-- Whether memory from app_info_settings is available or not. -->
+    <bool name="config_show_app_info_settings_memory">true</bool>
+
 </resources>
