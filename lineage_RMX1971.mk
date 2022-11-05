@@ -42,7 +42,7 @@ WITH_GMS := true
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
 # Package Type (By default it says AOSP,lets make it Vanilla instead)
-RICE_PACKAGE_TYPE := Vanilla
+RICE_PACKAGE_TYPE := Gapps
 
 # Official
 RICE_OFFICIAL := true
