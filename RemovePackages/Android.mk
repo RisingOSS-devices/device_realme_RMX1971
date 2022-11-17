@@ -7,6 +7,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
+    CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
     ConnMO \
@@ -14,6 +15,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     DCMO \
     DevicePolicyPrebuilt \
     DMService \
+    Drive \
     GCS \
     GoogleTTS \
     Maps \
@@ -24,8 +26,10 @@ LOCAL_OVERRIDES_PACKAGES := \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Photos \
     PixelBuds \
     PixelLiveWallpaperPrebuilt \
+    PrebuiltGmail \
     RecorderPrebuilt \
     SafetyHubPrebuilt \
     SCONE \
