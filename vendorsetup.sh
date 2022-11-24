@@ -10,7 +10,7 @@ rm -rf device/realme/sdm710-common && git clone https://github.com/riceDroid-Dev
 
 echo 'Cloning Kernel tree'
 # Kernel Tree
-rm -rf kernel/realme/sdm710 && git clone --depth=1 https://github.com/dotOS-Devices/kernel_realme_RMX1971 -b dot12 kernel/realme/sdm710
+rm -rf kernel/realme/sdm710 && git clone --depth=1 https://github.com/dotOS-Devices/kernel_realme_RMX1971 -b 13 kernel/realme/sdm710
 
 echo 'Cloning Vendor tree'
 # Vendor Tree
