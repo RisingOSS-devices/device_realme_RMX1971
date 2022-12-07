@@ -20,9 +20,6 @@ echo 'Cloning Vendor Common tree'
 # Vendor Common Tree
 rm -rf vendor/realme/sdm710-common && git clone https://github.com/ProjectElixir-Devices/vendor_realme_sdm710-common -b snow vendor/realme/sdm710-common
 
-echo 'Cloning the HALs'
-rm -rf hardware/qcom-caf/sdm845/display;rm -rf hardware/qcom-caf/sdm845/audio;rm -rf hardware/qcom-caf/sdm845/media;git clone https://github.com/Project-Elixir/hardware_qcom-caf_sdm845_display.git -b snow hardware/qcom-caf/sdm845/display;git clone https://github.com/Project-Elixir/hardware_qcom-caf_sdm845_audio.git -b snow hardware/qcom-caf/sdm845/audio;git clone https://github.com/Project-Elixir/hardware_qcom-caf_sdm845_media.git -b snow hardware/qcom-caf/sdm845/media
-
 echo 'Cloning Proton Clang'
 rm -rf prebuilts/clang/host/linux-x86/clang-proton;git clone --depth=1 https://github.com/kdrag0n/proton-clang  prebuilts/clang/host/linux-x86/clang-proton
 
