@@ -23,9 +23,9 @@
     <integer name="config_fingerprintSensorLocation">0</integer>
 
 <!-- Battery health -->
-    <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
-    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
-    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
+    <string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>
+    <string name="config_batteryDesignCapacity">/sys/class/power_supply/battery/charge_full</string>
+    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/battery/charge_counter</string>
     <bool name="config_supportBatteryHealth">true</bool>
 
 <!-- Whether memory from app_info_settings is available or not. -->
