@@ -45,7 +45,6 @@ TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 RICE_PACKAGE_TYPE := Gapps
 
 # Official
-RICE_OFFICIAL := true
 RICE_MAINTAINER := KSSRAO
 
 # Graphene Camera
