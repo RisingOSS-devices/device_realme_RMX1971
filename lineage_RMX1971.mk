@@ -39,7 +39,7 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 
 # Pixel
 WITH_GMS := true
-TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Package Type (By default it says AOSP,lets make it Vanilla instead)
 RICE_PACKAGE_TYPE := Gapps
