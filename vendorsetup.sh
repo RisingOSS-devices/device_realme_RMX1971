@@ -23,7 +23,4 @@ rm -rf vendor/realme/sdm710-common && git clone https://github.com/ProjectElixir
 echo 'Cloning Proton Clang'
 rm -rf prebuilts/clang/host/linux-x86/clang-proton;git clone --depth=1 https://github.com/kdrag0n/proton-clang  prebuilts/clang/host/linux-x86/clang-proton
 
-echo 'Adding Patch to fix Brightness Slider Curve'
-cd frameworks/base && wget https://raw.githubusercontent.com/sarthakroy2002/random-stuff/main/Patches/Fix-brightness-slider-curve-for-some-devices-a12l.patch && patch -p1 < *.patch && cd -
-
 echo 'Completed cloning your trees, proceed with lunch Command'
