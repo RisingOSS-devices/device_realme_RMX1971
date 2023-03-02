@@ -18,7 +18,7 @@ rm -rf vendor/realme/RMX1971 && git clone https://gitlab.com/dotos-devices/vendo
 
 echo 'Cloning Vendor Common tree'
 # Vendor Common Tree
-rm -rf vendor/realme/sdm710-common && git clone https://github.com/ProjectElixir-Devices/vendor_realme_sdm710-common -b snow vendor/realme/sdm710-common
+rm -rf vendor/realme/sdm710-common && git clone https://gitlab.com/kssrao13882/vendor_realme_sdm710-common.git -b 12.1 vendor/realme/sdm710-common
 
 echo 'Cloning Proton Clang'
 rm -rf prebuilts/clang/host/linux-x86/clang-proton;git clone --depth=1 https://github.com/kdrag0n/proton-clang  prebuilts/clang/host/linux-x86/clang-proton
