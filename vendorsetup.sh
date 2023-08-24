@@ -8,9 +8,9 @@ echo 'Cloning Common tree'
 # CommonTree
 rm -rf device/realme/sdm710-common && git clone https://github.com/risingOSS-Devices/device_realme_sdm710-common -b 13 device/realme/sdm710-common
 
-echo 'Cloning Kernel tree'
-# Kernel Tree
-rm -rf kernel/realme/sdm710 && git clone --depth=1 https://gitlab.com/kssrao13882/kernel_realme_sdm710.git -b 13 kernel/realme/sdm710
+echo 'Cloning KernelSU tree'
+# KernelSU Tree
+rm -rf kernel/realme/sdm710 && git clone --recurse-submodules https://gitlab.com/kssrao13882/kernel_realme_sdm710.git -b su-test kernel/realme/sdm710
 
 echo 'Cloning Vendor tree'
 # Vendor Tree
